@@ -2,13 +2,13 @@
 Build a Malay Lexicon.
 
 # ---------------------------------  Hduser ---------------------------------------
->>>>>>
-(HDFS) start-dfs.sh
-(YARN) start-yarn.sh
-(HBASE) start-hbase.sh
-(THRIFT service) hbase thrift start -p 9090 &
-(ZOOKEEPER) zookeeper-service-start.sh $KAFKA_HOME/config/zookeeper.properties &
-(KAFKA Service) kafka-service-start.sh $KAFKA_HOME/config/server.properties &
+
+	(HDFS) start-dfs.sh
+	(YARN) start-yarn.sh
+	(HBASE) start-hbase.sh
+	(THRIFT service) hbase thrift start -p 9090 &
+	(ZOOKEEPER) zookeeper-service-start.sh $KAFKA_HOME/config/zookeeper.properties &
+	(KAFKA Service) kafka-service-start.sh $KAFKA_HOME/config/server.properties &
 
 To check: ~$ jps
 
