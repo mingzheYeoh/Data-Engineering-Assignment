@@ -2,7 +2,7 @@
 Build a Malay Lexicon.
 
 # ---------------------------------  Hduser ---------------------------------------
-
+>>>>>>
 (HDFS) start-dfs.sh
 (YARN) start-yarn.sh
 (HBASE) start-hbase.sh
