@@ -15,8 +15,6 @@ class Neo4jRedisLexiconManager:
         """Initialize the connection to the Neo4j, Redis and set OpenAI API Key"""
         self.driver = GraphDatabase.driver(uri, auth=(username, password))
         self.redis = redis.StrictRedis(host=redis_host, port=redis_port, db=redis_db, decode_responses=True)
-        self.api_key = os.getenv("OPENAI_API_KEY")
-        openai.api_key = self.api_key
 
     def close(self):
         """Close the connection to Neo4j and Redis."""
