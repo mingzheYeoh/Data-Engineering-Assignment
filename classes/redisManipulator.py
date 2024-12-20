@@ -1,3 +1,5 @@
+#Author: Lim Wai Ming
+
 import redis
 from classes.pymongo_utils import PyMongoUtils
 

@@ -1,3 +1,5 @@
+#Author: Lim Wai Ming
+
 from collections import defaultdict
 from classes.redisManipulator import redisMani
 from classes.pymongo_utils import PyMongoUtils

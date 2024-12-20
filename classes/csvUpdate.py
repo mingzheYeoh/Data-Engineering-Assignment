@@ -1,3 +1,5 @@
+#Author: Lim Wai Ming
+
 from classes.LexiconAnnotater import lexiconAnnotater
 from classes.LexiconCreator import lexiconRawDataCollector
 from classes.pymongo_utils import PyMongoUtils

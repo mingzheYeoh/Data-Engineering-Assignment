@@ -1,3 +1,5 @@
+# Author: Lim Wai Ming
+
 from pyspark.sql import SparkSession
 
 class sparkBuilder:
