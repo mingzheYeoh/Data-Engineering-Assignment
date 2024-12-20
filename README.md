@@ -57,7 +57,7 @@ Build a Malay Lexicon.
 # ---------------------------- Under Virtual Environment -------------------------------
 (Install required packages or libraries)
 
-	pip install pyspark pyvis py2neo networkx scikit-learn numpy transformers tqdm colorama redis happybase pymongo neo4j kafka-python-ng 
+	pip install pyspark pyvis py2neo networkx scikit-learn numpy transformers tqdm colorama redis happybase pymongo neo4j kafka-python-ng torch
 
 --------------------------------------------------------------------------------------
 
