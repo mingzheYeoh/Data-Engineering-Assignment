@@ -38,7 +38,7 @@ Build a Malay Lexicon.
 
 				                        
 # (after that activates the env)
-	source 	~/.profile
+	source ~/.profile
 
 # (Install Redis)
 	1. sudo apt update
