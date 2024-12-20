@@ -49,8 +49,8 @@ Build a Malay Lexicon.
 	
 	4. change to >> supervised systemd
 	
-	5. sudo systemcl restart redis-server
-
+	5. sudo systemctl restart redis-server
+ 
 # (then activate the virtual env, for example:) 
 	source de-ass/ass-venv/bin/activate  
 
