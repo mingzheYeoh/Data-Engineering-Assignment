@@ -1,3 +1,5 @@
+# Author: Lim Wai Ming
+
 from transformers import pipeline
 from pyspark.sql.functions import col, udf
 from pyspark.sql.types import StringType, FloatType
