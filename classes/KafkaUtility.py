@@ -1,3 +1,5 @@
+# Author: Lim Wai Ming
+
 from kafka import KafkaProducer
 from kafka import KafkaConsumer
 from kafka.errors import KafkaError
