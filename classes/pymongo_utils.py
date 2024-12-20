@@ -1,3 +1,5 @@
+#Author: Lim Wai Ming
+
 from pymongo import MongoClient
 import redis
 
