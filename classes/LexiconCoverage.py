@@ -22,6 +22,7 @@ class LexiconSizeCoverageCalculator:
         for word in words:
             if self.word_exists_in_redis(word) or self.word_exists_in_aura(word):
                 found_count += 1
+                print(f"Word '{word}' founded.")
             else:
                 print(f"Word '{word}' not found in either Redis or AuraDB.")
 
