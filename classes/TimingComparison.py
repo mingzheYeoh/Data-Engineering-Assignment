@@ -1,3 +1,5 @@
+#Author: Yeoh Ming Zhe, Wong Shu Han
+
 import time
 import json
 from .Neo4jRedisLexiconManager import Neo4jRedisLexiconManager
